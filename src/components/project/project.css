@@ -1,0 +1,60 @@
+.project { 
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.project__introduction h3 { 
+    text-align: center;
+    font-weight: 600;
+}
+
+.project__description img { 
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    align-self: center;
+}
+
+.project__description { 
+    padding: 1rem;
+}
+
+.project__links a { 
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: rgb(48, 48, 194);
+    margin: 1rem;
+    text-align: center;
+}
+
+.project__links a:hover { 
+    background: rgba(48, 48, 194, .5);
+}
+
+.project__description--text p { 
+    font-size: 16px;
+    padding: 0.5rem;
+}
+
+.project__description--tech { 
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Media queries */
+
+/* Mobile devices */
+@media only screen and (max-width: 550px) { 
+    .project__links { 
+        flex-direction: column;
+    }
+
+    .project__links a { 
+        align-self: center;
+    }
+
+    .project__description p { 
+        font-size: 14px;
+    }
+}

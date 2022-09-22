@@ -1,9 +1,34 @@
+.projects { 
+  padding: 1rem;
+}
+
+.projects__title { 
+  text-align: center;
+  font-weight: 600;
+}
+
+.project__items { 
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 /* Media Queries */
 
 /* small screens - mobile devices */
 
 @media only screen and (max-width: 550px) {
-  .portfolio__projects { 
-    margin-top: 1rem;
+  .projects { 
+    padding: 0.5rem;
+  }
+
+  .project__items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects__title { 
+    margin-bottom: 0;
   }
 }

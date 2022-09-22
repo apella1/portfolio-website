@@ -2,8 +2,8 @@ import React from 'react';
 import { IconContext } from 'react-icons';
 import './App.css';
 
-import {Navbar, Footer, Contact} from './components';
-import {About, Projects, Services, Books, Blog} from './containers';
+import {Navbar, Footer} from './components';
+import {About, Projects, Services} from './containers';
 
 function App() {
   return (
@@ -13,9 +13,6 @@ function App() {
         <About />
         <Services />
         <Projects />
-        <Books />
-        <Blog />
-        <Contact />
         <Footer />
       </div>
     </IconContext.Provider>

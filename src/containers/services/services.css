@@ -1,7 +1,13 @@
+.services { 
+    padding: 1rem; 
+    flex-wrap: wrap;
+}
+
 /* Media Queries */
 
-@media only screen and (max-width:1024px) { 
-    .navbar__services { 
+/* Mobile devices */
+@media only screen and (max-width:550px) { 
+    .services { 
         padding-top: 0.25rem;
     }
 }

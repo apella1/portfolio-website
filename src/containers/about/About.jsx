@@ -23,10 +23,10 @@ const About = () => {
                 </div>
 
                 <div className="portfolio__about--social">
-                    <a href="https://www.github.com/apella1" target='_blank' rel='noreferrer'><FaGithub /></a>
-                    <a href="https://www.linkedin.com/in/johnapella" target='_blank' rel='noreferrer'><FaLinkedin color='blue'/></a>
-                    <a href="https://www.twitter.com/apella_john" target='_blank' rel='noreferrer'><FaTwitter color='blue'/></a>
-                    <a href="https://www.whatsapp.com/apella" target='_blank' rel='noreferrer'><FaWhatsapp color='mediumspringgreen'/></a>  
+                    <a href="https://www.github.com/apella1" target='_blank' rel='noreferrer' className='github' ><FaGithub /></a>
+                    <a href="https://www.linkedin.com/in/johnapella" target='_blank' rel='noreferrer' className='linkedin' ><FaLinkedin /></a>
+                    <a href="https://www.twitter.com/apella_john" target='_blank' rel='noreferrer' className='twitter' ><FaTwitter /></a>
+                    <a href="https://wa.me/254796528249" target='_blank' rel='noreferrer' className='whatsapp' ><FaWhatsapp /></a>  
                 </div>
             </div>
     )

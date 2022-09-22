@@ -2,3 +2,8 @@ export {default as Navbar} from './navbar/Navbar';
 export {default as Header} from './header/Header';
 export {default as Footer} from './footer/Footer';
 export {default as Contact} from './contact/Contact';
+export {default as Book} from './book/Book';
+export {default as Chat} from './chat/Chat';
+export {default as Project} from './project/Project';
+export {default as Discussion} from './discussion/Discussion';
+export {default as Article} from './article/Article';

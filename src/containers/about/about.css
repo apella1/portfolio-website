@@ -67,6 +67,28 @@
     background-color: rgba(0, 0, 255, 0.5);
 }
 
+/* social media icons hover state */
+
+.instagram:hover { 
+    color: magenta;
+}
+
+.linkedin:hover { 
+    color: rgb(15, 15, 224);
+}
+
+.twitter:hover { 
+    color: rgb(9, 9, 231)
+}
+
+.whatsapp:hover { 
+    color: mediumspringgreen;
+}
+
+.github:hover { 
+    opacity: .5;
+}
+
 /* Media Queries */
 
 /* Mobile devices */
@@ -104,7 +126,6 @@
         justify-content: center;
         align-items: center;
     }
-
 }
 
 /* Medium screens */
