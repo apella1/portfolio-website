@@ -1,10 +1,10 @@
-import './services.css';
+import './technologies.css';
 import './imports.js';
 import { Html, CSS, JavaScript, GitHub, Bootstrap, Tailwind, ReactImg, Node} from './imports.js';
 
-const Services = () => { 
+const Technologies = () => { 
     return (
-      <div name="services" className="flex justify-center align-center services">
+      <div name="technologies" className="flex justify-center align-center services">
 
             <div className="flex flex-col mx-3">
               <img className="w-20" src={Html} alt="HTML" />
@@ -49,4 +49,4 @@ const Services = () => {
     );
 }
 
-export default Services
+export default Technologies

@@ -33,6 +33,10 @@
     color: var(--color-text);
 }
 
+.navbar__menu { 
+    display: none;
+}
+
 /* Media Queries */
 
 /* Large screens */
@@ -50,6 +54,10 @@
 @media only screen and (max-width: 768px) { 
     .navbar__links { 
         display: none;
+    }
+
+    .navbar__menu { 
+        display: block;
     }
 }
 

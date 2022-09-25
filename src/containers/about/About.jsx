@@ -15,11 +15,9 @@ const About = () => {
                         I build scalable applications using React.
                     </h2>
                     <p>
-                        Currently learning French as an avenue of grit. <span>Comment vas tu?</span>
+                        I am currently a student studying Bachelor of Science in Mathematics and Computer Science.
                     </p>
-                    <p className='about__resume'>
-                        Here is a link to my <a href="resume" className='about__links--resume'>resume</a>
-                    </p>
+                    <a href="resume" className='about__resume'>DOWNLOAD RESUME</a>
                 </div>
 
                 <div className="portfolio__about--social">

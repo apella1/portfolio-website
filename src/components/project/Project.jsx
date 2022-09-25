@@ -13,8 +13,8 @@ const Project = ({title, imageUrl, description, tech, website, repo}) => {
           <p>{description}</p>
           <p className='project__description--tech'>Tech:{tech}</p>
           <div className='project__links flex align-center justify-center'>
-            <a href={repo} target='_blank' rel='noreferrer'>GitHub Repo</a>
             <a href={website} target='_blank' rel='noreferrer'>Website Link</a>
+            <a href={repo} target='_blank' rel='noreferrer'>GitHub Repo</a>
           </div>
         </div>
       </div>

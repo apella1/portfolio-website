@@ -1,6 +1,6 @@
 import './projects.css';
 import './imports.js';
-import { Expense, Calculator, Shop, Gym } from './imports.js';
+import { Expense, Shop, Gym } from './imports.js';
 import { Project } from '../../components';
 
 const Projects = () => {
@@ -15,36 +15,38 @@ const Projects = () => {
               title='Mental Health Awareness Website'
               imageUrl={Expense}
               description='A website that makes resources related to mental health accessible at your fingertips. The chat functionality allows talking to peers to share anything that troubles one. In case of any professional guidance needed, there is access to professional therapists.'
-              tech='HTML, CSS, JavaScript, React'
+              tech='React, CSS'
+              website='zima-three.vercel.app'
+              repo='https://github.com/apella/zima'
             />
 
             <Project 
               title='Ecommerce Website'
               imageUrl={Shop}
-              description='This is an fully integrated e-shop with all the payment methods integrated. The shop accepts deliveries '
-              tech='HTML, CSS, JavaScript, React'
+              description='This is an fully integrated e-shop with all the payment methods integrated. The shop accepts deliveries and has a feature to track your order up to the point of delivery'
+              tech='React, CSS'
+              website='/'
+              repo='https://github.com/apella/e-commerce'
             />
 
             <Project 
               title='Gym Website'
               imageUrl={Gym}
               description='This is a gym business website with option to select the desired instructors and select your exercise regime. There is also an integrated shop where you can purchase gym equipment and gym wear.'
-              tech='HTML, CSS, JavaScript, React'
+              tech='React, CSS'
+              website='/'
+              repo='https://github.com/apella/react-gym'
             />
 
             <Project 
               title='Expense Tracker'
               imageUrl={Expense}
               description='This expense tracker tracks your spending to the last cent'
-              tech='HTML, CSS, JavaScript, React'
+              tech='React, CSS'
+              website='/'
+              repo='https://github.com/apella/react-expense-tracker'
             />
 
-            <Project 
-              title='Calculator'
-              imageUrl={Calculator}
-              description='This is a calculator app that performs basic arithmetic operation'
-              tech='HTML, CSS, JavaScript, React'
-            />
           </div>
       </div>   
     )

@@ -58,3 +58,14 @@
         font-size: 14px;
     }
 }
+
+/* Medium devices */
+@media only screen and (max-width: 768px) { 
+    .project__links { 
+        flex-direction: column;
+    }
+
+    .project__links a { 
+        align-self: center;
+    }
+}

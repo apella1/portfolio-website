@@ -3,7 +3,7 @@ import { IconContext } from 'react-icons';
 import './App.css';
 
 import {Navbar, Footer} from './components';
-import {About, Projects, Services} from './containers';
+import {About, Projects, Technologies} from './containers';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Navbar />
         <About />
-        <Services />
+        <Technologies />
         <Projects />
         <Footer />
       </div>

@@ -51,20 +51,14 @@
     color: var(--color-text);
 }
 
-.portfolio__about--text span { 
-    font-style: italic;
-    font-weight: 500;
+.about__resume { 
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid blue;
 }
 
-.about__links--resume { 
-    background-color: blue;
-    padding: 0.2rem;
-    border-radius: 5px;
-    color: black;
-}
-
-.about__links--resume:hover { 
-    background-color: rgba(0, 0, 255, 0.5);
+.about__resume:hover { 
+    text-decoration: underline;
 }
 
 /* social media icons hover state */
@@ -126,10 +120,18 @@
         justify-content: center;
         align-items: center;
     }
+
+    .about__resume { 
+        margin: 1rem;
+        font-size: 14px;
+        padding: 0.2rem;
+        border-radius: 5px;
+    }
+    
 }
 
 /* Medium screens */
-@media only screen and (max-width: 748px) { 
+@media only screen and (max-width: 768px) { 
     .portfolio__about { 
         flex-direction: column;
     }

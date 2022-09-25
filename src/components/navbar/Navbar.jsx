@@ -11,21 +11,21 @@ const Menu = () => (
                 <Link to='home' smooth={true} duration={500} >Home</Link>
             </a>
 
-            <a href="#services">
-                <Link to='services' smooth={true} duration={500}>Services</Link>
+            <a href="#technologies">
+                <Link to='technologies' smooth={true} duration={500}>Technologies</Link>
             </a>
 
             <a href="#projects">
                 <Link to='projects' smooth={true} duration={500}>Projects</Link>
             </a>
 
-            <a href="#books">
+            {/* <a href="#books">
                 <Link to='books' smooth={true} duration={500}>Book Club</Link>
-            </a>
+            </a> */}
 
-            <a href="#blog">
+            {/* <a href="#blog">
                 <Link to='blog' smooth={true} duration={500}>Blog</Link>
-            </a>
+            </a> */}
 
             <a href="#contact">
                 <Link to='contact' smooth={true} duration={500}>Contact Me</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <Menu />
             </div> 
 
-            <div onClick={handleClick} className='md:hidden z-10'>
+            <div onClick={handleClick} className='navbar__menu z-10'>
                 {!navigation ? <FaBars size='1.5em' /> : <FaTimes size='1.5em' />}
             </div>
 
