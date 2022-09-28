@@ -32,7 +32,5 @@ const About = () => {
 
 export default About
 
-// todo How to link whatsapp contact information 
 // ? writing hover styles inline 
-// * the size and color of the react-icons can be manipulated 
 // IconContext can be utilized to perform uniform styling for all the icons 
