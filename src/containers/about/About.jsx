@@ -14,9 +14,9 @@ const About = () => {
                     <h2 className='portfolio__about--text-introduction'>
                         I build scalable applications using React.
                     </h2>
-                    <p>
+                    {/* <p>
                         I am currently a student studying Bachelor of Science in Mathematics and Computer Science.
-                    </p>
+                    </p> */}
                     <a href="resume" className='about__resume'>DOWNLOAD RESUME</a>
                 </div>
 
