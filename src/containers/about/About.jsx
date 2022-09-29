@@ -33,4 +33,4 @@ const About = () => {
 export default About
 
 // ? writing hover styles inline 
-// IconContext can be utilized to perform uniform styling for all the icons 
+// IconContext can be utilized to perform uniform styling for all the icons

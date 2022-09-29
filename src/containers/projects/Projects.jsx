@@ -16,7 +16,7 @@ const Projects = () => {
               imageUrl={Expense}
               description='A website that makes resources related to mental health accessible at your fingertips. The chat functionality allows talking to peers to share anything that troubles one. In case of any professional guidance needed, there is access to professional therapists.'
               tech='React, Bootstrap'
-              website='https://www.zima-three.vercel.app'
+              website='https://zima-three.vercel.app'
               repo='https://github.com/apella/zima'
             />
           </div>
