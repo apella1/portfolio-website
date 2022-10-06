@@ -1,6 +1,7 @@
 import headshot from '../../assets/headshot.png';
-import './about.css'
+import './about.css';
 import {FaGithub, FaTwitter, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
+import resume from '../../data/resume.docx';
 
 const About = () => {
     return (
@@ -10,11 +11,14 @@ const About = () => {
                 </div>
 
                 <div className="portfolio__about--text">
-                    <h1>Hello, I am John. I am a frontend developer</h1>
-                    <p className='portfolio__about--text-introduction'>
-                        I have a passion for learning new things and challenging myself towards stretch goals. I am keen on developing websites that are accessible to anyone using the internet.
+                    <h1>Hello, I am John.</h1>
+                    <p className='portfolio__about--text-introduction text-center'>
+                        I have a passion for learning new things and challenging myself towards stretch goals.
                     </p>
-                    <a href="resume" className='about__resume'>DOWNLOAD RESUME</a>
+                    <p>
+                    I am keen on developing websites that are accessible to anyone using the internet.
+                    </p>
+                    <a href={resume} className='about__resume'>DOWNLOAD RESUME</a>
                 </div>
 
                 <div className="portfolio__about--social">
