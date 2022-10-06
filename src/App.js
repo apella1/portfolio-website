@@ -2,7 +2,7 @@ import React from 'react';
 import { IconContext } from 'react-icons';
 import './App.css';
 
-import {Navbar, Footer} from './components';
+import {Navbar, Footer, Contact} from './components';
 import {About, Projects, Technologies} from './containers';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <About />
         <Technologies />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     </IconContext.Provider>

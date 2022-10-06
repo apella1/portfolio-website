@@ -1,19 +1,19 @@
 import './contact.css';
 
+import React from 'react'
+
 const Contact = () => {
   return (
-    <div name='contact' className='flex flex-col justify-center items-center w-full h-screen p-5 bg-slate-500'>
-        <h2 className='text-center pb-4'>Contact Form</h2>
-        <form action="" className='flex flex-col w-full'>
-            <label htmlFor="first-name">First Name:</label>
-            <input type="text" id='first-name' placeholder='First name'/>
-            <label htmlFor="last-name">Last Name</label>
-            <input type="text" id='last-name' placeholder='Last name'/>
-            <label htmlFor="email">Email:</label>
-            <input type="email" id='email' placeholder='Email Address'/>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder='Type your message here..'></textarea>
-            <input type="submit" value="Submit" className='p-2 bg-blue-800 text-center flex justify-center'/>
+      <div name='contact' className='w-full h-screen flex items-center p-4 contact'>
+        <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
+            <div className='pb-8'>
+                <p className='font-bold inline text-center'>Contact</p>
+                <p className='py-4'>You could use the form or email directly at apellajohn@gmail.com</p>
+            </div>
+            <input className='p-2' type="text" placeholder='Name' name='name' />
+            <input className='my-4 p-2' type="email" placeholder='Email' name='email' />
+            <textarea className='p-2' name="message" rows="10" placeholder='Message'></textarea>
+            <button className='border-2 hover:bg-blue-600 hover:border-blue-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </form>
     </div>
   )

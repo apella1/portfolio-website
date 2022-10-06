@@ -6,17 +6,15 @@ const About = () => {
     return (
             <div className="portfolio__about" name='home'>
                 <div className="portfolio__about--image">
-                    <img src={headshot} alt="John's headshot" />
+                    <img src={headshot} alt="John" />
                 </div>
 
                 <div className="portfolio__about--text">
-                    <h1>Hello, I am John</h1>
-                    <h2 className='portfolio__about--text-introduction'>
-                        I build scalable applications using React.
-                    </h2>
-                    {/* <p>
-                        I am currently a student studying Bachelor of Science in Mathematics and Computer Science.
-                    </p> */}
+                    <h1>Hello, I am John. I am a frontend developer</h1>
+                    <p className='portfolio__about--text-introduction'>
+                        I have a passion for learning new things and challenge myself towards stretch goals. 
+                        I am keen of developing websites that are accessible to anyone using the internet.
+                    </p>
                     <a href="resume" className='about__resume'>DOWNLOAD RESUME</a>
                 </div>
 
