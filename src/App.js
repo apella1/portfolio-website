@@ -3,7 +3,7 @@ import { IconContext } from 'react-icons';
 import './App.css';
 
 import {Navbar, Footer, Contact} from './components';
-import {About, Projects, Technologies} from './containers';
+import {About, Projects, Technologies} from './pages';
 
 function App() {
   return (
