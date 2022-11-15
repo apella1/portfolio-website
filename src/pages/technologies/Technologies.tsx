@@ -1,4 +1,5 @@
 import './technologies.css';
+import React from 'react'
 import './imports.js';
 import { Html, CSS, JavaScript, GitHub, Bootstrap, Tailwind, ReactImg, Node} from './imports.js';
 
@@ -6,7 +7,7 @@ const Technologies = () => {
     return (
       <section className='my-4'>
         <p className='text-center font-bold'>Below are the technologies I work with.</p>
-        <div name="technologies" className="flex justify-center align-center services">
+        <div className="flex justify-center align-center services">
               <div className="flex flex-col mx-3">
                 <img className="w-20" src={Html} alt="HTML" />
                 <p className="text-center font-medium">HTML</p>

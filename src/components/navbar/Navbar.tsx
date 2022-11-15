@@ -1,5 +1,5 @@
 import './navbar.css';
-import Logo from '../../assets/logo.png';
+import React from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {useState} from 'react';
 
@@ -19,14 +19,6 @@ const Menu = () => (
                 <Link to='projects' smooth={true} duration={500}>Projects</Link>
             </a>
 
-            {/* <a href="#books">
-                <Link to='books' smooth={true} duration={500}>Book Club</Link>
-            </a> */}
-
-            {/* <a href="#blog">
-                <Link to='blog' smooth={true} duration={500}>Blog</Link>
-            </a> */}
-
             <a href="#contact">
                 <Link to='contact' smooth={true} duration={500}>Contact Me</Link>
             </a>
@@ -39,10 +31,6 @@ const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className='navbar__icon'>
-                <img src={Logo}  alt='logo' className='max-w-[80px]'/>
-            </div>
-
             <div className='navbar__links'>
                 <Menu />
             </div> 

@@ -1,11 +1,12 @@
 import './projects.css';
+import React from 'react'
 import './imports.js';
 import { Expense } from './imports.js';
 import { Project } from '../../components';
 
 const Projects = () => {
     return (
-      <div name="projects" className="projects">
+      <div className="projects">
           <h2 className='projects__title'>
             My Projects
           </h2>

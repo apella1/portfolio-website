@@ -1,4 +1,5 @@
 import './project.css';
+import React from 'react'
 
 const Project = ({title, imageUrl, website}) => {
   return (
