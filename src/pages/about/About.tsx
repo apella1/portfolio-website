@@ -4,10 +4,8 @@ import React from 'react'
 const About = () => {
     return (
             <div className="portfolio__about">
-
-                <div className="portfolio__about--text">
-                    
-                </div>
+				<h3>About Me</h3>
+				<p>I am a frontend developer working with React and Node.</p>
             </div>
     )
 }
@@ -15,4 +13,4 @@ const About = () => {
 export default About
 
 // ? writing hover styles inline 
-// IconContext can be utilized to perform uniform styling for all the icons
+

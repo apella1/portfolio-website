@@ -3,24 +3,22 @@ import React from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {useState} from 'react';
 
-import {Link} from 'react-scroll';
-
 const Menu = () => (
         <>
             <a href="#home">
-                <Link to='home' smooth={true} duration={500} >Home</Link>
+				Home
             </a>
 
             <a href="#technologies">
-                <Link to='technologies' smooth={true} duration={500}>Technologies</Link>
+				Technologies
             </a>
 
             <a href="#projects">
-                <Link to='projects' smooth={true} duration={500}>Projects</Link>
+				Projects
             </a>
 
             <a href="#contact">
-                <Link to='contact' smooth={true} duration={500}>Contact Me</Link>
+				Contact
             </a>
         </>
 )
@@ -47,4 +45,5 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
+

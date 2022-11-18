@@ -17,6 +17,12 @@ const Projects = () => {
               imageUrl={Expense}
               website='https://zima-three.vercel.app'
             />
+
+            <Project
+              title='E-commerce Website'
+              imageUrl={Expense}
+              website='https://zima-three.vercel.app'
+            />
           </div>
       </div>   
     )

@@ -1,7 +1,7 @@
 import './project.css';
-import React from 'react'
+import React from 'react';
 
-const Project = ({title, imageUrl, website}) => {
+const Project = ({title, imageUrl, website}:{title: string, imageUrl: string, website: string}) => {
   return (
     <div className='project flex flex-col align-center'>
       <div className='project__introduction'>
@@ -20,4 +20,4 @@ const Project = ({title, imageUrl, website}) => {
   )
 }
 
-export default Project
+export default Project;

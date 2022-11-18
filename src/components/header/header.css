@@ -1,0 +1,9 @@
+.portfolio-header {
+    height: 100vh;
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
