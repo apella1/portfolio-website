@@ -21,3 +21,4 @@ const Project = ({title, imageUrl, website}:{title: string, imageUrl: string, we
 }
 
 export default Project;
+

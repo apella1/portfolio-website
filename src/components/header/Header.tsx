@@ -1,10 +1,13 @@
 import './header.css'
 import React from 'react'
+import Navbar from '../navbar/Navbar'
+import { About } from '../../pages'
 
 const Header = () => {
     return (
         <div className="portfolio__header">
-            <h2>Great work by an amazing developer.</h2>
+            <Navbar />
+            <About />
         </div>
     )
 }
