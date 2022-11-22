@@ -8,6 +8,7 @@ const Blog = () => {
 			<Navbar />
 			<div className='blog-display'>
 				<h3>Blog Title</h3>
+				<p>Below is a list of trending articles that I've written in the past year.</p>
 			</div>
 			<Footer />
         </section>

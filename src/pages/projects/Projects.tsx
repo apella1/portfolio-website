@@ -6,12 +6,14 @@ import { Project } from '../../components';
 
 const Projects = () => {
     return (
-      <div className="projects">
-          <h2 className='projects__title'>
+      <div className="projects container" id='projects'>
+          <h2 className='projects-title'>
             My Projects
           </h2>
 
-          <div className="project__items">
+          <p>Here are some of the projects that I've worked on in the past.</p>
+
+          <div className="projects-items">
             <Project 
               title='Mental Health Awareness Website'
               imageUrl={Expense}

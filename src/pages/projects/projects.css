@@ -1,18 +1,21 @@
 .projects { 
   padding: 1rem;
+  margin: 1.5rem;
   width: 100%;
 }
 
-.projects__title { 
+.projects p {
+  text-align: center;
+}
+
+.projects-title { 
   text-align: center;
   font-weight: 600;
 }
 
-.project__items { 
+.projects-items { 
   padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  display: flex;
 }
 
 /* Media Queries */
@@ -24,12 +27,11 @@
     padding: 0.5rem;
   }
 
-  .project__items {
-    display: flex;
+  .projects-items {
     flex-direction: column;
   }
 
-  .projects__title { 
+  .projects-title { 
     margin-bottom: 0;
   }
 }

@@ -1,14 +1,17 @@
-.portfolio__about { 
+.about { 
     display: flex;
 	flex-direction: column;
-	padding: 1rem;
+	justify-content: center;
 	align-items: center;
-
+	padding: 1rem;
+	margin-top: 4rem;
+	text-align: center;
 }
 
+.about h2 {
+	font-size: 24px;
+}
 
-/* Mobile devices */
-
-
-/* Medium screens */
-
+.about p {
+	font-size: 16px;
+}

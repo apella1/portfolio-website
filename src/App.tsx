@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
 
-import { Footer, Header} from './components';
+import { Contact, FeaturedProject, Footer, Header} from './components';
 import { Projects, Technologies } from './pages';
 
 function App() {
   return (
       <div className="App">
         <Header />
+        <FeaturedProject />
         <Technologies />
         <Projects />
+        <Contact />
         <Footer />
       </div>
   )
