@@ -12,3 +12,6 @@ const blogSchema = new Schema ({
 })
 
 module.exports = mongoose.model('Blog', blogSchema);
+
+// ? how is the schema definition different from a typescript object
+// ? model export - the arguments that are passed in 

@@ -4,8 +4,8 @@ import React from 'react'
 const About = () => {
     return (
             <div className="about">
-				<h2>Fullstack JavaScript Developer</h2>
-				<p>I design and implement projects using TypeScript and JavaScript technologies.</p>
+				<h2>Fullstack Developer</h2>
+				<p>I design and implement web solutions using TypeScript, JavaScript and Python.</p>
             </div>
     )
 }

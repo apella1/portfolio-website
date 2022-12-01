@@ -59,3 +59,7 @@ exports.deleteBlog = async (req, res) => {
         res.status(500).json({err: err.message})
     }
 }
+
+// the exports.function syntax - other ways of expressing the module exports 
+// ? why id takes params and body doesn't i.e req.params.id and req.body 
+//

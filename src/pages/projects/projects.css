@@ -8,15 +8,6 @@
   text-align: center;
 }
 
-.projects-title { 
-  text-align: center;
-  font-weight: 600;
-}
-
-.projects-items { 
-  padding: 1rem;
-  display: flex;
-}
 
 /* Media Queries */
 
@@ -29,9 +20,5 @@
 
   .projects-items {
     flex-direction: column;
-  }
-
-  .projects-title { 
-    margin-bottom: 0;
   }
 }

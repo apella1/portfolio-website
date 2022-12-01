@@ -1,3 +1,4 @@
+const {findByIdAndDelete} = require('../models/Blog');
 const BlogModel = require('../models/Blog');
 
 exports.getAllBlogs = async () => {
@@ -19,3 +20,6 @@ exports.updateBlog = async (id, blog) => {
 exports.deleteBlog = async (id) => {
     return await BlogModel.findByIdAndDelete(id);
 }
+
+// for the blog model, the defined preexisting functions - find, create, findById, findByIdAndDelete, findByIdAndUpdate methods 
+

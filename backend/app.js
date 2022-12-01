@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const blogRouter = require('./routes/BlogRoutes');
 
-// middleware
+// middleware - what are middlewares and which role do they play in the backend
 
 app.use('/api/blogs', blogRouter());
 
