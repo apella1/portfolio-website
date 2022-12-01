@@ -5,7 +5,7 @@ import { DiDjango, DiJavascript, DiLinux, DiMongodb, DiNodejs, DiPostgresql, DiP
 
 const Technologies = () => { 
     return (
-      <section className="technologies" id='technologies'>
+      <section className="technologies grid grid-cols-3 gap-2" id='technologies'>
           <div className="technologies-item container">
             <h3>Frontend Development</h3>
             <p>

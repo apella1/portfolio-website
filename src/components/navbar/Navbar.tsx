@@ -1,10 +1,11 @@
 import './navbar.css';
-import React from 'react'
+import React from 'react';
+import { FaLaptop } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
 		<nav className='navbar'>
-			<p>Logo</p>
+			<p><FaLaptop size='1.5rem'/></p>
 			<div className='navbar-links'>
 				<a href='/'>Home</a>
 				<a href='#technologies'>Technologies</a>
