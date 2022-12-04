@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <section className='contact-form flex flex-col justify-center items-center m-4 p-3' id='contact'>
-      <h2 className='text-center text-lg'>Good News! You can contact me via email.</h2>
+      <h2 className='text-center text-lg'>Get In Touch</h2>
       <h3>It would really feel great if you reached out. Want to say hello or got a proposal?</h3>
       <form action="" method='post' className='flex flex-col items-center p-4 m-4'>
         <label htmlFor="name">Name:</label>
