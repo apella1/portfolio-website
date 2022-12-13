@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import { Contact, FamiliarTech, FeaturedProject, Footer, Header} from './components';
+import { Contact, Footer, Header} from './components';
 import { Projects, Technologies } from './pages';
 
 function App() {
   return (
-      <div className="App">
+      <div className="App bg-stone-900">
         <Header />
-        <FeaturedProject />
         <Technologies />
-        <FamiliarTech />
         <Projects />
         <Contact />
         <Footer />
@@ -18,5 +16,4 @@ function App() {
   )
 }
 
-export default App
-
+export default App;

@@ -15,3 +15,7 @@
 .navbar-links a {
 	margin: 0.5rem;
 }
+
+.navbar-links a:hover {
+    color: blue;
+}

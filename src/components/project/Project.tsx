@@ -7,7 +7,7 @@ const Project = (
   {webLink:string, ghLink:string, projectTitle:string, projectDescription:string, aboutLink:string}
 ) => {
   return (
-		<div className="project flex flex-col bg-slate-300 p-4 m-4">
+		<div className="project flex flex-col p-4 m-4 rounded-lg">
       <div className="project-links flex justify-between items-center">
         <a className='btn' href={webLink}>Demo</a>
         <a href={ghLink}><FaGithub size='1.5em'/></a>
@@ -15,11 +15,16 @@ const Project = (
       <div className="project-body flex flex-col p-2 m-2">
         <h2 className='text-center'>{projectTitle}</h2>
         <p className='my-4'>{projectDescription}</p>
-        <div className="project-tools flex justify-start font-thin">
-          <p>Tool 1</p>
-          <p>Tool 2</p>
+        <div className="project-tools flex flex-col items-center justify-center font-thin">
+          <h3>Technologies Used.</h3>
+          <div className="flex flex-col items-center justify-center">
+            <p>Tool</p>
+            <p>Tool</p>
+            <p>Tool</p>
+            <p>Tool</p>
+            <div className='text-blue-900 border-2 w-full'></div>
+          </div>
         </div>
-        <a href={aboutLink}>Learn More</a>
       </div>
     </div>
   )

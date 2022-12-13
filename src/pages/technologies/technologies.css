@@ -37,18 +37,8 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding: 0.25rem;
-}
-
-.languages-items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1rem;
-}
-
-.languages-items img {
-    margin: 0.5rem;
+    padding: 0.5rem;
+    margin: 0 1rem;
 }
 
 

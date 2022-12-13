@@ -16,10 +16,9 @@ const Header = () => {
                     />
                 </a>
 
-                <a href='https://www.linkedin.com/in/johnapella' target='_blank' rel='noopener noreferrer' className='linkedin'>
+                <a href='https://www.linkedin.com/in/johnapella' target='_blank' rel='noopener noreferrer' className='linkedin text-blue-500'>
                     <FaLinkedin 
                         size='2em'
-                        color='blue'
                     />
                 </a>
 
