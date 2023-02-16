@@ -1,30 +1,21 @@
-import './header.css'
-import React from 'react'
-import Navbar from '../navbar/Navbar'
-import { About } from '../../pages'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import Navbar from "../navbar/Navbar";
 
-const Header = () => {
-    return (
-        <header className="portfolio-header">
-            <Navbar />
-            <About />
-            <div className="featured-social">
-                <a href="https://www.github.com/apella1" target='_blank' rel='noopener noreferrer' className='github'>
-                    <FaGithub 
-                        size='2em'
-                    />
-                </a>
-
-                <a href='https://www.linkedin.com/in/johnapella' target='_blank' rel='noopener noreferrer' className='linkedin text-blue-500'>
-                    <FaLinkedin 
-                        size='2em'
-                    />
-                </a>
-
-            </div>
-        </header>
-    )
+export default function Header() {
+  return (
+    <header className="h-screen px-4 py-4" id="home">
+      <Navbar />
+      <div className="py-20 pl-20 space-y-4">
+        <p className="font-bold text-green-600">Hello, I'm</p>
+        <h1 className="text-6xl font-bold">John Apella</h1>
+        <h2 className="text-3xl font-bold">Frontend Developer</h2>
+        <p className="p-2">I design and implement frontend solutions</p>
+        <a
+          href="#projects"
+          className="p-2 my-3 text-white bg-green-500 rounded-lg"
+        >
+          Check out my projects.
+        </a>
+      </div>
+    </header>
+  );
 }
-
-export default Header
