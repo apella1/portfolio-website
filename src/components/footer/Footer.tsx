@@ -4,7 +4,7 @@ const Footer = () => {
       <a href="https://linkedin.com/in/johnapella">LinkedIn</a>
       <a href="https://github.com/apella1">Github</a>
       <a href="https://twitter.com/apella_john">Twitter</a>
-      <a href="whatsapp">WhatsApp</a>
+	  <a href="https://wa.me/253796528249">WhatsApp</a>
     </footer>
   );
 };

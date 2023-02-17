@@ -15,18 +15,21 @@ export default function FeaturedProject({
   const { title, description, image, stack, site, repo } = featuredProject;
   return (
     <article>
-      <div>
+      <div className="w-full my-auto overflow-hidden">
         {image ? (
-          <h3>This displays project image</h3>
+			<img src={image} alt={`${title.toLowerCase()}`} />
         ) : (
           <h3>Project has no image</h3>
         )}
       </div>
-      <div>
+      <div className="">
         <h3>{title}</h3>
-        <ul>
+        <ul className="flex flex-wrap list-none list-inside">
           {stack.map((item, id) => (
-            <li key={id}>
+            <li
+              key={id}
+              className="flex items-center mr-3 opacity-50 text-brand"
+            >
               <span className="small-text">{item}</span>
             </li>
           ))}

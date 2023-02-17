@@ -13,8 +13,8 @@ export default function Project({ project }: { project: ProjectCard }) {
   return (
     <div>
       {image ? <p className="small-text">Display coming soon</p> : null}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="inline-block text-xl font-bold">{title}</h3>
+      <p className="">{description}</p>
       <div className="flex mt-auto">
         <ul className="flex flex-wrap list-none list-inside">
           {stack.map((item, id) => (
@@ -25,12 +25,11 @@ export default function Project({ project }: { project: ProjectCard }) {
               <span className="small-text">{item}</span>
             </li>
           ))}
-          ;
         </ul>
       </div>
-      <div>
-        <a href={site}>Demo</a>
-        <a href={repo}>GitHub</a>
+      <div className="flex items-center justify-start my-3 space-x-4">
+		  <a href={site} className="p-2 bg-green-600 rounded-md hover:bg-green-900">Demo</a>
+        <a href={repo} className="p-2 bg-green-600 rounded-md hover:bg-green-900">GitHub</a>
       </div>
       {!webDeployed ? (
         <p className="my-4 small-text">Development Almost Done</p>
