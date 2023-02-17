@@ -17,7 +17,7 @@ export default function FeaturedProject({
     <article>
       <div className="w-full my-auto overflow-hidden">
         {image ? (
-			<img src={image} alt={`${title.toLowerCase()}`} />
+          <img src={image} alt={`${title.toLowerCase()}`} />
         ) : (
           <h3>Project has no image</h3>
         )}

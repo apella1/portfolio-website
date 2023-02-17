@@ -28,8 +28,18 @@ export default function Project({ project }: { project: ProjectCard }) {
         </ul>
       </div>
       <div className="flex items-center justify-start my-3 space-x-4">
-		  <a href={site} className="p-2 bg-green-600 rounded-md hover:bg-green-900">Demo</a>
-        <a href={repo} className="p-2 bg-green-600 rounded-md hover:bg-green-900">GitHub</a>
+        <a
+          href={site}
+          className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+        >
+          Demo
+        </a>
+        <a
+          href={repo}
+          className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+        >
+          GitHub
+        </a>
       </div>
       {!webDeployed ? (
         <p className="my-4 small-text">Development Almost Done</p>
