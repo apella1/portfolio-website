@@ -1,6 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
 import Navbar from "../navbar/Navbar";
-
 export default function Header() {
   return (
     <header
@@ -8,10 +7,10 @@ export default function Header() {
       id="home"
     >
       <Navbar />
-      <div className="py-24 pl-20 space-y-4">
+      <div className="w-full py-24 pl-6 md:pl-20 space-y-4">
         <p className="font-bold text-green-600">Hello, I'm</p>
-        <h1 className="text-6xl font-bold md:text-7xl">John Apella</h1>
-        <h2 className="text-3xl font-semibold md:text-4xl">
+        <h1 className="text-4xl font-bold md:text-6xl">John Apella</h1>
+        <h2 className="text-2xl font-semibold md:text-4xl">
           <Typewriter
             words={["Frontend Developer"]}
             loop={2}

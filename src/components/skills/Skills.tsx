@@ -1,21 +1,70 @@
+import { SiDjango, SiExpress, SiJavascript, SiLinux, SiNeovim, SiNextdotjs, SiNodedotjs, SiPycharm, SiPython, SiReact, SiTailwindcss, SiTypescript, SiVisualstudiocode } from "react-icons/si";
+
 export default function Skills() {
   return (
-    <section className="flex flex-col p-4 m-4 space-y-2" id="skills">
-		<h2 className="flex items-center justify-center text-4xl font-medium text-green-600">Skills</h2>
-		<hr className="bg-green-600 w-20 h-1.5 self-center mb-6 mt-0"/>
-      <ul className="list-none list-inside">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>TailwindCSS</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>Node</li>
-        <li>Express</li>
-        <li>React</li>
-        <li>Python</li>
-        <li>Django</li>
-        <li>Django REST FrameWork</li>
-      </ul>
+    <section className="flex flex-col p-10 m-4 space-y-2" id="skills">
+      <h2 className="flex items-center justify-center text-4xl font-medium text-green-600">
+        Skills
+      </h2>
+      <hr className="bg-green-600 w-20 h-1.5 self-center mb-6 mt-0" />
+      <div className="p-4 mt-2 md:grid md:grid-cols-3 space-x-2">
+        <div className="flex flex-col">
+          <h2 className="mb-2 font-bold md:text-xl">Languages</h2>
+          <div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiJavascript /></p> <h3>JavaScript</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl"><SiTypescript /></p> <h3>TypeScript</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiNodedotjs /></p> <h3>Node</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiPython /></p> <h3>Python</h3>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <h2 className="mb-2 font-bold md:text-xl">
+            Frameworks and Libraries
+          </h2>
+          <div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiTailwindcss /></p> <h3>TailWindCSS</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiReact /></p> <h3>React</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiNextdotjs /></p> <h3>Next</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiDjango /></p> <h3>Django</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiExpress /></p> <h3>Express</h3>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <h2 className="mb-2 font-bold md:text-xl">Other Tools</h2>
+          <div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiLinux /></p> <h3>Linux</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiVisualstudiocode /></p> <h3>VS Code</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiPycharm /></p> <h3>Pycharm IDE</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+				<p className="text-6xl"><SiNeovim /></p> <h3>Neovim</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
