@@ -22,7 +22,7 @@ export default function Project({ project }: { project: ProjectCard }) {
               key={id}
               className="flex items-center mr-3 opacity-50 text-brand"
             >
-              <span className="small-text">{item}</span>
+              <span className="small-text">{item.toUpperCase()}</span>
             </li>
           ))}
         </ul>

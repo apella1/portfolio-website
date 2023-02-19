@@ -10,7 +10,7 @@ export default function Contact() {
         projects so get in touch if you'd like us to work together
       </p>
       <p>
-        Email me at apellajohn@gmail.com and let's discuss about your project.
+        Email me at <a href="mailto:apellajohn@gmail.com" className="text-green-600">apellajohn@gmail.com</a> and let's discuss about your project.
       </p>
     </div>
   );

@@ -1,66 +1,57 @@
 // Other Projects
 export const otherProjects = [
   {
-    title: "Todo App",
+    title: "Task Tracker",
     description:
       "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+    stack: ["Html", "React", "CSS"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/task-tracker",
     webDeployed: true,
   },
   {
     title: "ToolHub",
     description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+      "A Wikimedia tool that aids with editing missing citations in documents",
+    stack: ["Html", "React", "CSS"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/tool-hub",
     webDeployed: true,
   },
   {
     title: "Expense Tracker",
     description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+      "An application that tracks a user's expenses and gives an overview of the spending habits",
+    stack: ["Html", "React", "CSS"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/expense-tracker",
     webDeployed: true,
   },
   {
     title: "Bootcamp Website",
     description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+      "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp",
+    stack: ["Html", "Bootstrap"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/BootcampWebsite",
     webDeployed: true,
   },
   {
     title: "Rock Paper Scissors",
     description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+	  "A game of Rock Paper Scissors pitting you against a computer generating random responses for the available options.",
+    stack: ["Html", "React", "CSS"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
-    webDeployed: true,
-  },
-  {
-    title: "CorgiWeb",
-    description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
-    site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/react-rock-paper-scissors",
     webDeployed: true,
   },
   {
     title: "Weather App",
     description:
-      "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
-    stack: ["Html", "React", "TailwindCSS"],
+      "A simple weather application showing the weather in various parts of the world.",
+    stack: ["Html", "CSS", "JavaScript"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/WeatherApp",
     webDeployed: true,
   },
 ];
@@ -72,27 +63,20 @@ export const featuredProjects = [
     description: "A mock GPT3 website showing the capabilities of AGI",
     stack: ["Html", "React", "TailwindCSS"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/react-modern-design",
   },
   {
     title: "EducateNow",
-    description: "A mock GPT3 website showing the capabilities of AGI",
-    stack: ["Html", "React", "TailwindCSS"],
+    description: "A chat application that enables the sharing of ideas between peers in a social media fashion.",
+    stack: ["Html", "Django", "CSS", "JavaScript"],
     site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    repo: "https://github.com/apella1/educatenow-django",
   },
   {
     title: "Zima",
-    description: "A mock GPT3 website showing the capabilities of AGI",
-    stack: ["Html", "React", "TailwindCSS"],
+    description: "A website that builds awareness on mental health and connects people to counselling peers.",
+    stack: ["Next.js", "React", "TailwindCSS", "JavaScript"],
     site: "https://sitetoapp.vercel.ap",
     repo: "https://github.com/apella1/todo-app",
   },
-  {
-    title: "Ecommerce",
-    description: "A mock GPT3 website showing the capabilities of AGI",
-    stack: ["Html", "React", "TailwindCSS"],
-    site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
-  },
-];
+  ];
