@@ -15,6 +15,7 @@ export default function FeaturedProject({
   const { title, description, image, stack, site, repo } = featuredProject;
   return (
     <article>
+      <h3 className="inline-block text-xl font-bold">{title}</h3>
       <div className="w-full my-auto overflow-hidden">
         {image ? (
           <img src={image} alt={`${title.toLowerCase()}`} />
@@ -22,7 +23,6 @@ export default function FeaturedProject({
         }
       </div>
       <div className="">
-        <h3>{title}</h3>
         <p>{description}</p>
         <ul className="flex flex-wrap list-none list-inside">
           {stack.map((item, id) => (
@@ -39,12 +39,16 @@ export default function FeaturedProject({
         <a
           href={site}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+		  target="_blank"
+		  rel="noreferrer noopener"
         >
           Demo
         </a>
         <a
           href={repo}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+		  target="_blank"
+		  rel="noreferrer noopener"
         >
           GitHub
         </a>

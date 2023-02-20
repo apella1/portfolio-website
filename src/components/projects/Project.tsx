@@ -31,12 +31,16 @@ export default function Project({ project }: { project: ProjectCard }) {
         <a
           href={site}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+		  target="_blank"
+		  rel="noreferrer noopener"
         >
           Demo
         </a>
         <a
           href={repo}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+		  target="_blank"
+		  rel="noreferrer noopener"
         >
           GitHub
         </a>

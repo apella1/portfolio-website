@@ -2,7 +2,8 @@
 
 ## About The Project
 
-This project is my portfolio website. It is a single page website that contains my personal information, my skills, my projects, and my contact information.
+This project is my portfolio website. It is a single page website  
+that contains my personal information, my skills, my projects, and my contact information.
 
 ## Built With
 
@@ -13,6 +14,6 @@ This project is my portfolio website. It is a single page website that contains 
 ## Getting Started
 
 - Clone the repo to your development environment
-- Install the dependencies with `npm install`
-- Run the development server with `npm start`
+- Install the dependencies with `yarn`
+- Run the development server with `yarn dev`
 

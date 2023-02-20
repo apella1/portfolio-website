@@ -5,7 +5,7 @@ export const otherProjects = [
     description:
       "This is an application that tracks the tasks that a user has set to do for a certain period of time.",
     stack: ["Html", "React", "CSS"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://tsk-trckr.vercel.app/",
     repo: "https://github.com/apella1/task-tracker",
     webDeployed: true,
   },
@@ -14,7 +14,7 @@ export const otherProjects = [
     description:
       "A Wikimedia tool that aids with editing missing citations in documents",
     stack: ["Html", "React", "CSS"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://tool-hub-lilac.vercel.app/",
     repo: "https://github.com/apella1/tool-hub",
     webDeployed: true,
   },
@@ -23,7 +23,7 @@ export const otherProjects = [
     description:
       "An application that tracks a user's expenses and gives an overview of the spending habits",
     stack: ["Html", "React", "CSS"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://exp-trckr.vercel.app/",
     repo: "https://github.com/apella1/expense-tracker",
     webDeployed: true,
   },
@@ -32,7 +32,7 @@ export const otherProjects = [
     description:
       "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp",
     stack: ["Html", "Bootstrap"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://bootcamp-cyan.vercel.app/",
     repo: "https://github.com/apella1/BootcampWebsite",
     webDeployed: true,
   },
@@ -41,7 +41,7 @@ export const otherProjects = [
     description:
 	  "A game of Rock Paper Scissors pitting you against a computer generating random responses for the available options.",
     stack: ["Html", "React", "CSS"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://grps.vercel.app/",
     repo: "https://github.com/apella1/react-rock-paper-scissors",
     webDeployed: true,
   },
@@ -50,7 +50,7 @@ export const otherProjects = [
     description:
       "A simple weather application showing the weather in various parts of the world.",
     stack: ["Html", "CSS", "JavaScript"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://cwpp.vercel.app/",
     repo: "https://github.com/apella1/WeatherApp",
     webDeployed: true,
   },
@@ -62,21 +62,21 @@ export const featuredProjects = [
     title: "MockGPT",
     description: "A mock GPT3 website showing the capabilities of AGI",
     stack: ["Html", "React", "TailwindCSS"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "https://mockgpt.vercel.app/",
     repo: "https://github.com/apella1/react-modern-design",
   },
   {
     title: "EducateNow",
     description: "A chat application that enables the sharing of ideas between peers in a social media fashion.",
     stack: ["Html", "Django", "CSS", "JavaScript"],
-    site: "https://sitetoapp.vercel.ap",
+    site: "",
     repo: "https://github.com/apella1/educatenow-django",
   },
   {
     title: "Zima",
     description: "A website that builds awareness on mental health and connects people to counselling peers.",
     stack: ["Next.js", "React", "TailwindCSS", "JavaScript"],
-    site: "https://sitetoapp.vercel.ap",
-    repo: "https://github.com/apella1/todo-app",
+    site: "https://zima-three.vercel.app/",
+    repo: "https://github.com/apella1/zima",
   },
   ];
