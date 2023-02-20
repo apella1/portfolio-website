@@ -3,7 +3,7 @@ import Navbar from "../navbar/Navbar";
 export default function Header() {
   return (
     <header
-      className="h-screen px-4 py-4 text-white bg-fixed bg-center bg-no-repeat bg-cover bg-hero"
+      className="h-screen px-4 py-4 text-white bg-gradient-to-r from-[#1e130c] to-[#9a8478]"
       id="home"
     >
       <Navbar />
