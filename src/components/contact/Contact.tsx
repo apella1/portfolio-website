@@ -7,10 +7,14 @@ export default function Contact() {
       <hr className="bg-green-600 w-40 h-1.5 self-center mb-6 mt-0" />
       <p>
         I'm currently open to frontend development roles and working on new
-        projects so get in touch if you'd like us to work together
+        projects so get in touch if you'd like us to work together.
       </p>
       <p>
-        Email me at <a href="mailto:apellajohn@gmail.com" className="text-green-600">apellajohn@gmail.com</a> and let's discuss about your project.
+        Email me at{" "}
+        <a href="mailto:apellajohn@gmail.com" className="text-green-600">
+          apellajohn@gmail.com
+        </a>{" "}
+        and let's discuss about your project.
       </p>
     </div>
   );

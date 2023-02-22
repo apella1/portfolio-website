@@ -13,7 +13,7 @@ export default function Header() {
         <h2 className="text-2xl font-semibold md:text-4xl">
           <Typewriter
             words={["Frontend Developer"]}
-            loop={2}
+            loop={1}
             cursor
             cursorStyle="|"
             typeSpeed={60}
