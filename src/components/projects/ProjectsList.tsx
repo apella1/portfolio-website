@@ -1,5 +1,6 @@
-// Other Projects
-export const otherProjects = [
+// Featured Projects
+
+export const featuredProjects = [
   {
     title: "Task Tracker",
     description:
@@ -39,7 +40,7 @@ export const otherProjects = [
   {
     title: "Rock Paper Scissors",
     description:
-	  "A game of Rock Paper Scissors pitting you against a computer generating random responses for the available options.",
+      "A game of Rock Paper Scissors pitting you against a computer generating random responses for the available options.",
     stack: ["Html", "React", "CSS"],
     site: "https://grps.vercel.app/",
     repo: "https://github.com/apella1/react-rock-paper-scissors",
@@ -54,10 +55,6 @@ export const otherProjects = [
     repo: "https://github.com/apella1/WeatherApp",
     webDeployed: true,
   },
-];
-
-// Featured projects
-export const featuredProjects = [
   {
     title: "MockGPT",
     description: "A mock GPT3 website showing the capabilities of AGI",
@@ -67,16 +64,18 @@ export const featuredProjects = [
   },
   {
     title: "EducateNow",
-    description: "A chat application that enables the sharing of ideas between peers in a social media fashion.",
+    description:
+      "A chat application that enables the sharing of ideas between peers in a social media fashion.",
     stack: ["Html", "Django", "CSS", "JavaScript"],
     site: "",
     repo: "https://github.com/apella1/educatenow-django",
   },
   {
     title: "Zima",
-    description: "A website that builds awareness on mental health and connects people to counselling peers.",
+    description:
+      "A website that builds awareness on mental health and connects people to counselling peers.",
     stack: ["Next.js", "React", "TailwindCSS", "JavaScript"],
     site: "https://zima-three.vercel.app/",
     repo: "https://github.com/apella1/zima",
   },
-  ];
+];

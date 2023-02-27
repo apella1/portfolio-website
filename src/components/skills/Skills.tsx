@@ -16,6 +16,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVisualstudiocode,
+  SiWebstorm,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -33,37 +34,37 @@ export default function Skills() {
               <p className="text-6xl">
                 <SiJavascript />
               </p>{" "}
-              <h3>JavaScript</h3>
+              <h3 className="self-center">JavaScript</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiTypescript />
               </p>{" "}
-              <h3>TypeScript</h3>
+              <h3 className="self-center">TypeScript</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiNodedotjs />
               </p>{" "}
-              <h3>Node</h3>
+              <h3 className="self-center">Node</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiPython />
               </p>{" "}
-              <h3>Python</h3>
+              <h3 className="self-center">Python</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiMongodb />
               </p>{" "}
-              <h3>MongoDB</h3>
+              <h3 className="self-center">MongoDB</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiPostgresql />
               </p>{" "}
-              <h3>PostgreSQL</h3>
+              <h3 className="self-center">PostgreSQL</h3>
             </div>
           </div>
         </div>
@@ -76,31 +77,31 @@ export default function Skills() {
               <p className="text-6xl">
                 <SiTailwindcss />
               </p>{" "}
-              <h3>TailWindCSS</h3>
+              <h3 className="self-center">TailWindCSS</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiReact />
               </p>{" "}
-              <h3>React</h3>
+              <h3 className="self-center">React</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiNextdotjs />
               </p>{" "}
-              <h3>Next</h3>
+              <h3 className="self-center">Next</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiDjango />
               </p>{" "}
-              <h3>Django</h3>
+              <h3 className="self-center">Django</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiExpress />
               </p>{" "}
-              <h3>Express</h3>
+              <h3 className="self-center">Express</h3>
             </div>
           </div>
         </div>
@@ -111,38 +112,44 @@ export default function Skills() {
               <p className="text-6xl">
                 <SiGit />
               </p>{" "}
-              <h3>Git</h3>
+              <h3 className="self-center">Git</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiGithub />
               </p>{" "}
-              <h3>GitHub</h3>
+              <h3 className="self-center">GitHub</h3>
             </div>
 
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiLinux />
               </p>{" "}
-              <h3>Linux</h3>
+              <h3 className="self-center">Linux</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiVisualstudiocode />
               </p>{" "}
-              <h3>VS Code</h3>
+              <h3 className="self-center">VS Code</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiPycharm />
               </p>{" "}
-              <h3>Pycharm IDE</h3>
+              <h3 className="self-center">Pycharm IDE</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiNeovim />
               </p>{" "}
-              <h3>Neovim</h3>
+              <h3 className="self-center">Neovim</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiWebstorm />
+              </p>{" "}
+              <h3 className="self-center">WebStorm</h3>
             </div>
           </div>
         </div>
