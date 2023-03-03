@@ -4,17 +4,17 @@ interface ProjectCard {
   stack: string[];
   site: string;
   repo: string;
-  image?: string;
+  image: string;
 }
 
 export default function Project({ project }: { project: ProjectCard }) {
   const { title, description, stack, site, repo, image } = project;
   return (
-    <div className="p-4">
-      {image ? <p className="small-text">Display coming soon</p> : null}
-      <h3 className="inline-block text-xl font-bold">{title}</h3>
+    <div className="flex flex-col p-4">
+      <h3 className="self-center inline-block text-xl font-bold">{title}</h3>
+      <img src={image} alt={title.toLowerCase()} className="" />
       <p className="">{description}</p>
-      <div className="flex mt-auto">
+      <div className="flex self-center mt-auto">
         <ul className="flex flex-wrap list-none list-inside">
           {stack.map((item, id) => (
             <li
@@ -26,7 +26,7 @@ export default function Project({ project }: { project: ProjectCard }) {
           ))}
         </ul>
       </div>
-      <div className="flex items-center justify-start my-3 space-x-4">
+      <div className="flex items-center self-center justify-start my-3 space-x-4">
         <a
           href={site}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"
