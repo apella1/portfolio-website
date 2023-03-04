@@ -14,7 +14,7 @@ export default function Contact() {
         <a href="mailto:apellajohn@gmail.com" className="text-green-600">
           apellajohn@gmail.com
         </a>{" "}
-        and let's discuss about your project.
+        and let's discuss your project.
       </p>
     </div>
   );
