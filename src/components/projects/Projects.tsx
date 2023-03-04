@@ -3,7 +3,10 @@ import { featuredProjects } from "./ProjectsList";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col p-4 m-4 space-y-2" id="projects">
+    <section
+      className="flex flex-col p-4 m-4 bg-gray-200 rounded-sm space-y-2"
+      id="projects"
+    >
       <h2 className="self-center text-4xl font-medium text-green-600">
         Projects
       </h2>

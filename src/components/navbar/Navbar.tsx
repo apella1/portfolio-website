@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav
       className={`container flex items-center justify-between w-full px-4 py-4`}
     >
-      <p className="text-lg font-bold">John Apella</p>
+      <p className="text-2xl font-black">JA</p>
       {/* menu */}
       <div className="hidden md:flex md:items-center md:justify-center md:space-x-4">
         <Menu />

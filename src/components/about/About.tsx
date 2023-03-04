@@ -4,35 +4,39 @@ export default function About() {
       <h2 className="flex items-center justify-center text-4xl font-medium text-green-600">
         About Me
       </h2>
-      <hr className="bg-green-600 w-30 h-1.5 self-center mb-6 mt-0" />
-      <div className="flex flex-col space-y-1">
-		  <p className="md:text-lg">
-          Hi there, I'm John Apella, a React developer with a passion for
-          crafting delightful and performant user experiences. With a Bachelor's
-          degree in Mathematics and Computer Science, I'm constantly seeking to
-          bring my analytical and problem-solving skills to my work.
-        </p>
-		  <p className="md:text-lg">
-          As a skilled React developer with a focus on JavaScript and
-          TypeScript, I have experience building a range of web applications,
-          including progressive web apps, e-commerce platforms, and complex web
-          interfaces. I'm also proficient in backend development using Python,
-          though my real passion is in frontend development.
-        </p>
-		  <p className="md:text-lg">
-          In addition to my development work, I'm committed to making a positive
-          impact on the tech community. I enjoy participating in community
-          outreach programs that promote diversity and inclusion in tech, and I
-          believe that good communication and collaboration are key to creating
-          impactful software.
-        </p>
-		  <p className="md:text-lg">
-          I take pride in delivering high-quality work on time and within
-          budget, and I'm always striving to stay up to date with the latest
-          technologies and best practices. Please take a look at my portfolio to
-          see some of my recent projects, and don't hesitate to get in touch if
-          you'd like to discuss how I can help you bring your ideas to life.
-        </p>
+      <hr className="bg-green-600 w-20 h-1.5 self-center mb-6 mt-0" />
+      <p className="p-4 text-center md:text-lg">
+        Looking for a skilled and experienced React developer who can help you
+        build high-quality and scalable web applications? Look no further! With
+        a deep knowledge of React and its ecosystem, I can create complex web
+        applications, design intuitive user interfaces, and integrate
+        third-party APIs. Proficient in HTML, CSS, JavaScript and TypeScript, I
+        create visually stunning and highly functional websites. Committed to
+        delivering exceptional results and providing a seamless user experience,
+        I always keep my clients' goals and vision in mind throughout the
+        development process. Highly collaborative and dedicated to delivering
+        outstanding results, I am the perfect React developer to help take your
+        project to the next level. Let's work together to create something
+        amazing!
+      </p>
+      <div className="flex flex-col p-4">
+        <h2 className="self-center p-4 text-xl font-medium text-green-600">
+          Deliverables
+        </h2>
+        <div className="flex flex-col md:mx-28 md:grid md:grid-cols-3 md:gap-4 space-y-4">
+          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
+            <h2 className="self-center font-medium">Frontend Development</h2>
+            <p></p>
+          </div>
+          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
+            <h2 className="self-center font-medium">Backend Development</h2>
+            <p></p>
+          </div>
+          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
+            <h2 className="self-center font-medium">Database Management</h2>
+            <p></p>
+          </div>
+        </div>
       </div>
     </section>
   );
