@@ -5,39 +5,16 @@ export default function About() {
         About Me
       </h2>
       <hr className="bg-green-600 w-20 h-1.5 self-center mb-6 mt-0" />
-      <p className="p-4 text-center md:text-lg">
-        Looking for a skilled and experienced React developer who can help you
-        build high-quality and scalable web applications? Look no further! With
-        a deep knowledge of React and its ecosystem, I can create complex web
-        applications, design intuitive user interfaces, and integrate
-        third-party APIs. Proficient in HTML, CSS, JavaScript and TypeScript, I
-        create visually stunning and highly functional websites. Committed to
-        delivering exceptional results and providing a seamless user experience,
-        I always keep my clients' goals and vision in mind throughout the
-        development process. Highly collaborative and dedicated to delivering
-        outstanding results, I am the perfect React developer to help take your
-        project to the next level. Let's work together to create something
-        amazing!
+      <p className="p-4 md:text-lg">
+        I am a software developer with a background in mathematics and computer
+        science. My expertise lies in implementing front-end systems using
+        React. I am also experienced in utilizing Node and Django backend
+        technologies to integrate full-stack systems with a focus on optimizing
+        user experience through interactive and intuitive user interfaces. If
+        you're interested in collaborating on a project, please don't hesitate
+        to contact me. Feel free to browse through my portfolio below to see
+        examples of my work.
       </p>
-      <div className="flex flex-col p-4">
-        <h2 className="self-center p-4 text-xl font-medium text-green-600">
-          Deliverables
-        </h2>
-        <div className="flex flex-col md:mx-28 md:grid md:grid-cols-3 md:gap-4 space-y-4">
-          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
-            <h2 className="self-center font-medium">Frontend Development</h2>
-            <p></p>
-          </div>
-          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
-            <h2 className="self-center font-medium">Backend Development</h2>
-            <p></p>
-          </div>
-          <div className="flex flex-col p-4 bg-gray-300 rounded-md">
-            <h2 className="self-center font-medium">Database Management</h2>
-            <p></p>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }

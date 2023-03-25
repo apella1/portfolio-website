@@ -11,7 +11,9 @@ export default function Project({ project }: { project: ProjectCard }) {
   const { title, description, stack, site, repo, image } = project;
   return (
     <div className="flex flex-col p-4">
-      <h3 className="self-center inline-block text-xl font-bold px-4 py-2">{title}</h3>
+      <h3 className="self-center inline-block px-4 py-2 text-xl font-bold">
+        {title}
+      </h3>
       <img src={image} alt={title.toLowerCase()} className="" />
       <p className="">{description}</p>
       <div className="flex self-center mt-auto">
@@ -26,7 +28,7 @@ export default function Project({ project }: { project: ProjectCard }) {
           ))}
         </ul>
       </div>
-      <div className="flex text-white items-center self-center justify-start my-3 space-x-4">
+      <div className="flex items-center self-center justify-start my-3 text-white space-x-4">
         <a
           href={site}
           className="p-2 bg-green-600 rounded-md hover:bg-green-900"

@@ -4,22 +4,22 @@ import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 const Navbar = () => {
   const Menu = () => (
     <>
-      <a href="#home" className="hover:underline">
+      <a href="#home" className="hover:bg-[#343A46] py-2 px-3 rounded-2xl">
         Home
       </a>
-      <a href="#about" className="hover:underline">
+      <a href="#about" className="hover:bg-[#343A46] py-2 px-3 rounded-2xl">
         About
       </a>
-      <a href="#skills" className="hover:underline">
+      <a href="#skills" className="hover:bg-[#343A46] py-2 px-3 rounded-2xl">
         Skills
       </a>
-      <a href="#projects" className="hover:underline">
+      <a href="#projects" className="hover:bg-[#343A46] py-2 px-3 rounded-2xl">
         My Projects
       </a>
-      <a href="#contact" className="hover:underline">
+      <a href="#contact" className="hover:bg-[#343A46] py-2 px-3 rounded-2xl">
         Contact
       </a>
-      <a href="mailto:apellajohn@gmail.com" className="p-3 bg-green-600">
+      <a href="mailto:apellajohn@gmail.com" className="p-3 bg-green-600 hover:bg-green-500 rounded-lg">
         Hire Me
       </a>
     </>
