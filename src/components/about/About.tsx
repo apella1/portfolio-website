@@ -15,6 +15,12 @@ export default function About() {
         to contact me. Feel free to browse through my portfolio below to see
         examples of my work.
       </p>
+      <a
+        href="#projects"
+        className="p-4 mt-4 self-center text-white  bg-[#23272F] rounded-3xl hover:bg-green-900"
+      >
+        Check out my projects.
+      </a>
     </section>
   );
 }
