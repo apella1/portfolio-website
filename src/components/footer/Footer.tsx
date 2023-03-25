@@ -2,7 +2,7 @@ import { SiLinkedin, SiGithub, SiTwitter, SiWhatsapp } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col text-white bg-[#23272F] p-4 m-4">
+    <footer className="flex flex-col text-white bg-[#23272F] p-4 pt-8 m-4">
       <div className="flex items-center justify-center space-x-4 md:space-x-6">
         <a
           href="https://linkedin.com/in/johnapella"

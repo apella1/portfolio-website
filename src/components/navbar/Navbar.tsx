@@ -50,7 +50,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "hidden"
-            : "flex absolute inset-0 w-full h-screen z-{1} flex-col items-center justify-center  bg-[#1e130c] space-y-2"
+            : "flex absolute inset-0 w-full h-screen z-{1} flex-col items-center justify-center  bg-[#23272F] space-y-2"
         }
       >
         <Menu />
