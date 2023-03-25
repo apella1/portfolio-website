@@ -6,15 +6,16 @@ export default function Contact() {
       </h2>
       <hr className="bg-green-600 w-40 h-1.5 self-center mb-6 mt-0" />
       <p>
-        I'm currently open to frontend development roles and working on new
-        projects so get in touch if you'd like us to work together.
+        If you have any frontend development opportunities or new projects you'd
+        like to collaborate on, feel free to reach out using the contact
+        information below. Looking forward to hearing from you!{" "}
       </p>
       <p>
         Email me at{" "}
         <a href="mailto:apellajohn@gmail.com" className="text-green-600">
           apellajohn@gmail.com
         </a>{" "}
-        and let's discuss your project.
+        and let's have a chat.
       </p>
     </div>
   );
