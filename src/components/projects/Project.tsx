@@ -31,7 +31,7 @@ export default function Project({ project }: { project: ProjectCard }) {
       <div className="flex items-center self-center justify-start my-3 text-white space-x-4">
         <a
           href={site}
-          className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+          className="p-2 bg-green-600 rounded-2xl hover:bg-green-900"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -39,7 +39,7 @@ export default function Project({ project }: { project: ProjectCard }) {
         </a>
         <a
           href={repo}
-          className="p-2 bg-green-600 rounded-md hover:bg-green-900"
+          className="p-2 bg-green-600 rounded-2xl hover:bg-green-900"
           target="_blank"
           rel="noreferrer noopener"
         >

@@ -33,7 +33,7 @@ export const featuredProjects = [
     image:
       "https://api.apify.com/v2/key-value-stores/amJrmKitzw7oyYR2p/records/bootcamp-cyan.vercel.app-scroll_lossy-comp",
     description:
-      "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp",
+      "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp.",
     stack: ["Html", "Bootstrap"],
     site: "https://bootcamp-cyan.vercel.app/",
     repo: "https://github.com/apella1/BootcampWebsite",
