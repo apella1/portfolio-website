@@ -1,5 +1,7 @@
 import { SiLinkedin, SiGithub, SiTwitter, SiWhatsapp } from "react-icons/si";
 
+const thisYear: string = new Date().getFullYear().toString();
+
 const Footer = () => {
   return (
     <footer className="flex flex-col text-white bg-[#23272F] p-4 pt-8 m-4">
@@ -24,7 +26,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <p className="self-center p-2">&copy; 2023 - John Apella</p>
+      <p className="self-center p-2">&copy; {thisYear} - John Apella</p>
     </footer>
   );
 };
