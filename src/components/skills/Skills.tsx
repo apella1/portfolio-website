@@ -1,8 +1,10 @@
 import {
+  SiCss3,
   SiDjango,
   SiExpress,
   SiGit,
   SiGithub,
+  SiHtml5,
   SiJavascript,
   SiLinux,
   SiMongodb,
@@ -29,6 +31,20 @@ export default function Skills() {
         <div className="flex flex-col">
           <h2 className="my-4 font-bold md:text-xl">Languages and Databases</h2>
           <div className="flex flex-wrap items-center justify-start space-x-4">
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiHtml5 />
+              </p>{" "}
+              <h3 className="self-center">HTML</h3>
+            </div>
+
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiCss3 />
+              </p>{" "}
+              <h3 className="self-center">CSS</h3>
+            </div>
+
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiJavascript />
