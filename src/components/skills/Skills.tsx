@@ -20,7 +20,6 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVisualstudiocode,
-  SiWebstorm,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -59,12 +58,6 @@ export default function Skills() {
                 <SiTypescript />
               </p>{" "}
               <h3 className="self-center">TypeScript</h3>
-            </div>
-            <div className="flex flex-col space-y-2">
-              <p className="text-6xl">
-                <SiNodedotjs />
-              </p>{" "}
-              <h3 className="self-center">Node</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
@@ -174,6 +167,12 @@ export default function Skills() {
                 <SiPug />
               </p>{" "}
               <h3 className="self-center">Pug</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiNodedotjs />
+              </p>{" "}
+              <h3 className="self-center">Node</h3>
             </div>
           </div>
         </div>
