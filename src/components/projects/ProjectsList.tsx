@@ -28,17 +28,17 @@ export const featuredProjects = [
   //   site: "https://exp-trckr.vercel.app/",
   //   repo: "https://github.com/apella1/expense-tracker",
   // },
-  {
-    title: "Bootcamp Website",
-    image:
-      "https://api.apify.com/v2/key-value-stores/amJrmKitzw7oyYR2p/records/bootcamp-cyan.vercel.app-scroll_lossy-comp",
-    description:
-      "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp.",
-    stack: ["Html", "Bootstrap"],
-    site: "https://bootcamp-cyan.vercel.app/",
-    repo: "https://github.com/apella1/BootcampWebsite",
-  },
   // {
+  //   title: "Bootcamp Website",
+  //   image:
+  //     "https://api.apify.com/v2/key-value-stores/amJrmKitzw7oyYR2p/records/bootcamp-cyan.vercel.app-scroll_lossy-comp",
+  //   description:
+  //     "A simple landing page designed using HTML and Bootstrap that shows the course offerings of a bootcamp.",
+  //   stack: ["Html", "Bootstrap"],
+  //   site: "https://bootcamp-cyan.vercel.app/",
+  //   repo: "https://github.com/apella1/BootcampWebsite",
+  // },
+  // // {
   //   title: "Rock Paper Scissors",
   //   image: "https://media.giphy.com/media/pK6ESChdEAIFI4tDC5/giphy.gif",
   //   description:
@@ -73,14 +73,14 @@ export const featuredProjects = [
   //   site: "",
   //   repo: "https://github.com/apella1/educatenow-django",
   // },
-  {
-    title: "Zima",
-    image:
-      "https://api.apify.com/v2/key-value-stores/Dp0YLqUvl6DMDjtp2/records/zima-three.vercel.app-scroll_lossy-comp",
-    description:
-      "A website that builds awareness on mental health and connects people to counselling peers.",
-    stack: ["Next.js", "React", "TailwindCSS", "JavaScript"],
-    site: "https://zima-three.vercel.app/",
-    repo: "https://github.com/apella1/zima",
-  },
+  // {
+  //   title: "Zima",
+  //   image:
+  //     "https://api.apify.com/v2/key-value-stores/Dp0YLqUvl6DMDjtp2/records/zima-three.vercel.app-scroll_lossy-comp",
+  //   description:
+  //     "A website that builds awareness on mental health and connects people to counselling peers.",
+  //   stack: ["Next.js", "React", "TailwindCSS", "JavaScript"],
+  //   site: "https://zima-three.vercel.app/",
+  //   repo: "https://github.com/apella1/zima",
+  // },
 ];

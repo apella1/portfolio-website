@@ -4,11 +4,11 @@ export default function Header() {
   return (
     <header className="h-screen p-4  text-white bg-[#23272F]" id="home">
       <Navbar />
-      <section className="md:flex p-4">
+      <section className="p-4 md:flex">
         <div className="w-full py-24 pl-6 md:pl-20 space-y-2">
           <p className="font-bold text-green-600">Hello, I'm</p>
           <h1 className="text-4xl font-bold md:text-6xl">John Apella</h1>
-          <h2 className="text-2xl font-semibold md:text-4xl mt-4">
+          <h2 className="mt-4 text-2xl font-semibold md:text-4xl">
             <Typewriter
               words={["Frontend Developer", "Welcome to my portfolio!"]}
               loop={1}
@@ -27,7 +27,7 @@ export default function Header() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-48 h-48 self-center"
+            className="self-center w-48 h-48"
           >
             <path
               strokeLinecap="round"

@@ -9,19 +9,29 @@ const Footer = () => {
         <a
           href="https://linkedin.com/in/johnapella"
           className="text-xl md:text-3xl"
+          target="_blank"
         >
           <SiLinkedin />
         </a>
-        <a href="https://github.com/apella1" className="text-xl md:text-3xl">
+        <a
+          href="https://github.com/apella1"
+          className="text-xl md:text-3xl"
+          target="_blank"
+        >
           <SiGithub />
         </a>
         <a
           href="https://twitter.com/apella_john"
           className="text-xl md:text-3xl"
+          target="_blank"
         >
           <SiTwitter />
         </a>
-        <a href="https://wa.me/254796528249" className="text-xl md:text-3xl">
+        <a
+          href="https://wa.me/254796528249"
+          className="text-xl md:text-3xl"
+          target="_blank"
+        >
           <SiWhatsapp />
         </a>
       </div>
