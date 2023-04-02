@@ -4,6 +4,7 @@ import {
   SiExpress,
   SiGit,
   SiGithub,
+  SiGraphql,
   SiHtml5,
   SiJavascript,
   SiLinux,
@@ -11,6 +12,7 @@ import {
   SiNeovim,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiPycharm,
   SiPython,
   SiReact,
@@ -74,6 +76,12 @@ export default function Skills() {
                 <SiMongodb />
               </p>{" "}
               <h3 className="self-center">MongoDB</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiPostgresql />
+              </p>{" "}
+              <h3 className="self-center">PostgreSQL</h3>
             </div>
           </div>
         </div>
@@ -146,7 +154,7 @@ export default function Skills() {
               <p className="text-6xl">
                 <SiPycharm />
               </p>{" "}
-              <h3 className="self-center">Pycharm IDE</h3>
+              <h3 className="self-center">Pycharm</h3>
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
@@ -156,9 +164,9 @@ export default function Skills() {
             </div>
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
-                <SiWebstorm />
+                <SiGraphql />
               </p>{" "}
-              <h3 className="self-center">WebStorm</h3>
+              <h3 className="self-center">GraphQL</h3>
             </div>
           </div>
         </div>
