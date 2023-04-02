@@ -13,6 +13,7 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
+  SiPug,
   SiPycharm,
   SiPython,
   SiReact,
@@ -82,6 +83,12 @@ export default function Skills() {
                 <SiPostgresql />
               </p>{" "}
               <h3 className="self-center">PostgreSQL</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiPug />
+              </p>{" "}
+              <h3 className="self-center">Pug</h3>
             </div>
           </div>
         </div>
