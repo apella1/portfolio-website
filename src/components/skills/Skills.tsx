@@ -17,6 +17,7 @@ import {
   SiPycharm,
   SiPython,
   SiReact,
+  SiRedis,
   SiRedux,
   SiTailwindcss,
   SiTypescript,
@@ -79,6 +80,12 @@ export default function Skills() {
                 <SiPostgresql />
               </p>{" "}
               <h3 className="self-center">PostgreSQL</h3>
+            </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiRedis />
+              </p>{" "}
+              <h3 className="self-center">Redis</h3>
             </div>
           </div>
         </div>
