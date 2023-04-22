@@ -17,6 +17,7 @@ import {
   SiPycharm,
   SiPython,
   SiReact,
+  SiRedux,
   SiTailwindcss,
   SiTypescript,
   SiVisualstudiocode,
@@ -31,7 +32,9 @@ export default function Skills() {
       <hr className="bg-green-600 w-20 h-1.5 self-center mb-6 mt-0" />
       <div className="p-4 mt-2 md:grid md:grid-cols-3 md:gap-4 space-x-2">
         <div className="flex flex-col">
-          <h2 className="my-4 font-bold self-center md:text-xl">Languages and Databases</h2>
+          <h2 className="my-4 font-bold self-center md:text-xl">
+            Languages and Databases
+          </h2>
           <div className="flex flex-wrap items-center justify-start space-x-4">
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
@@ -96,6 +99,13 @@ export default function Skills() {
               </p>{" "}
               <h3 className="self-center">React</h3>
             </div>
+            <div className="flex flex-col space-y-2">
+              <p className="text-6xl">
+                <SiRedux />
+              </p>{" "}
+              <h3 className="self-center">Redux</h3>
+            </div>
+
             <div className="flex flex-col space-y-2">
               <p className="text-6xl">
                 <SiNextdotjs />
